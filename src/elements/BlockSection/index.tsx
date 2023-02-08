@@ -5,7 +5,7 @@ interface PageSectionProps extends FlexProps {
     legend?: string
 }
 
-export const BlockSection = ({legend, children, ...rest}:PageSectionProps) => {
+const BlockSection = ({legend, children, ...rest}:PageSectionProps) => {
     return (
         <Box
             backgroundPosition='center'
@@ -65,3 +65,5 @@ export const BlockSection = ({legend, children, ...rest}:PageSectionProps) => {
         </Box>
     )
 } 
+
+export default BlockSection
