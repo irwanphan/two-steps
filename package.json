@@ -27,6 +27,9 @@
   },
   "homepage": "https://github.com/irwanphan/two-steps#readme",
   "exports": {
+    "./types": {
+      "types": "./lib/types.d.ts"
+    },
     ".": {
       "import": {
         "types": "./lib/esm/types/index.d.ts",

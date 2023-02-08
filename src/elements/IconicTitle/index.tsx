@@ -1,3 +1,4 @@
+import React from "react"
 import { HStack, Circle, Text, FlexProps, Box } from "@chakra-ui/react"
 import { IconType } from "react-icons"
 import { FiPenTool } from "react-icons/fi"

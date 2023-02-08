@@ -1,10 +1,11 @@
+import React from "react"
 import { Box, FlexProps, Text } from "@chakra-ui/react"
 
 interface PageSectionProps extends FlexProps {
     legend?: string
 }
 
-const BlockSection = ({legend, children, ...rest}:PageSectionProps) => {
+export const BlockSection = ({legend, children, ...rest}:PageSectionProps) => {
     return (
         <Box
             backgroundPosition='center'
@@ -64,5 +65,3 @@ const BlockSection = ({legend, children, ...rest}:PageSectionProps) => {
         </Box>
     )
 } 
-
-export default BlockSection

@@ -1,3 +1,4 @@
+import React from "react"
 import { Box, FlexProps } from "@chakra-ui/react"
 
 interface BubbleContainerProps extends FlexProps {
